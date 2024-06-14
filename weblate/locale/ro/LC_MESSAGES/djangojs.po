@@ -1,0 +1,374 @@
+# Copyright © Michal Čihař <michal@weblate.org>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Vlăduț Ilie <vladilie94@gmail.com>, 2023, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: Weblate 5.6\n"
+"Report-Msgid-Bugs-To: https://github.com/WeblateOrg/weblate/issues\n"
+"POT-Creation-Date: 2024-06-11 18:40+0000\n"
+"PO-Revision-Date: 2024-03-22 10:01+0000\n"
+"Last-Translator: Vlăduț Ilie <vladilie94@gmail.com>\n"
+"Language-Team: Romanian <https://hosted.weblate.org/projects/weblate/"
+"javascript/ro/>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Weblate 5.5-dev\n"
+
+#: weblate/static/editor/base.js:89
+msgid "Please select target plural by clicking."
+msgstr "Te rugăm să selectezi pluralul țintă făcând clic."
+
+#: weblate/static/editor/base.js:165
+#, javascript-format
+msgid "Cmd+%s"
+msgstr "Cmd+%s"
+
+#: weblate/static/editor/base.js:167
+#, javascript-format
+msgid "Ctrl+%s"
+msgstr "Ctrl+%s"
+
+#: weblate/static/editor/full.js:265
+msgid "Translation memory entry removed."
+msgstr "Intrarea din memoria de traducere a fost eliminată."
+
+#: weblate/static/editor/full.js:299
+msgid "The request for machine translation has failed:"
+msgstr "Cererea de traducere automată a eșuat:"
+
+#: weblate/static/editor/full.js:309
+#, javascript-format
+msgid "The request for machine translation using %s has failed:"
+msgstr "Cererea de traducere automată folosind %s a eșuat:"
+
+#: weblate/static/editor/full.js:344
+#, javascript-format
+msgid "Cmd+M then %s"
+msgstr "Cmd+M apoi %s"
+
+#: weblate/static/editor/full.js:346
+#, javascript-format
+msgid "Ctrl+M then %s"
+msgstr "Ctrl+M apoi %s"
+
+#: weblate/static/editor/full.js:448
+#, javascript-format
+msgid "Press Cmd+I then %s to dismiss this."
+msgstr "Apasă Cmd+I, apoi %s pentru a respinge asta."
+
+#: weblate/static/editor/full.js:453
+#, javascript-format
+msgid "Press Ctrl+I then %s to dismiss this."
+msgstr "Apasă Ctrl+I, apoi %s pentru a respinge asta."
+
+#: weblate/static/editor/full.js:597
+msgid "Clone to translation"
+msgstr "Clonează în traducere"
+
+#: weblate/static/editor/full.js:599
+msgid "Accept"
+msgstr "Acceptă"
+
+#: weblate/static/editor/full.js:608
+msgid "Delete entry"
+msgstr "Șterge intrare"
+
+#: weblate/static/editor/zen.js:105
+msgid "There are some unsaved changes, are you sure you want to leave?"
+msgstr "Sunt modificări nesalvate, sigur vrei să renunți?"
+
+#: weblate/static/loader-bootstrap.js:171
+msgid "Error loading search results!"
+msgstr "Eroare la încărcarea rezultatelor căutării!"
+
+#: weblate/static/loader-bootstrap.js:175
+msgid "No new matching source strings found."
+msgstr "Nu s-au găsit noi șiruri sursă care să corespundă."
+
+#: weblate/static/loader-bootstrap.js:259
+msgid "Sort this column"
+msgstr "Sortează această coloană"
+
+#: weblate/static/loader-bootstrap.js:563
+msgid "Error while loading page:"
+msgstr "Eroare la încărcarea paginii:"
+
+#: weblate/static/loader-bootstrap.js:830
+msgid "Text copied to clipboard."
+msgstr "Text copiat în clipboard."
+
+#: weblate/static/loader-bootstrap.js:834
+msgid "Please press Ctrl+C to copy."
+msgstr "Te rugăm să apeși Ctrl+C pentru a copia."
+
+#: weblate/static/loader-bootstrap.js:858
+msgid "Search…"
+msgstr "Caută…"
+
+#: weblate/static/loader-bootstrap.js:859
+msgid "Available:"
+msgstr "Disponibil:"
+
+#: weblate/static/loader-bootstrap.js:860
+msgid "Chosen:"
+msgstr "Ales:"
+
+#: weblate/static/loader-bootstrap.js:1121
+msgid "Weblate is now scanning the repository, please be patient."
+msgstr "Weblate scanează acum depozitarul, te rugăm să ai răbdare."
+
+#: weblate/static/loader-bootstrap.js:1235
+msgid ""
+"Notification settings removed, please do not forget to save the changes."
+msgstr ""
+"Setări de notificare eliminate, te rugăm nu uita să salvezi modificările."
+
+#: weblate/static/loader-bootstrap.js:1387
+msgctxt "Alert to user when opening browser developer console"
+msgid "Stop!"
+msgstr "Stai!"
+
+#: weblate/static/loader-bootstrap.js:1393
+msgid ""
+"This is a browser feature intended for developers. If someone told you to "
+"copy-paste something here, they are likely trying to compromise your Weblate "
+"account."
+msgstr ""
+"Aceasta este o caracteristică a navigatorului destinată dezvoltatorilor. "
+"Dacă cineva ți-a spus să copiezi și să lipești ceva aici, probabil că "
+"încearcă să-ți compromită contul Weblate."
+
+#: weblate/static/loader-bootstrap.js:1399
+msgid "See https://en.wikipedia.org/wiki/Self-XSS for more information."
+msgstr ""
+"Pentru mai multe informații, consultă https://en.wikipedia.org/wiki/Self-XSS."
+
+#: weblate/static/zammad.js:7
+msgid "Weblate feedback"
+msgstr "Impresii Weblate"
+
+#: weblate/static/zammad.js:8
+msgid "Get help"
+msgstr "Obține ajutor"
+
+#: weblate/static/zammad.js:10
+#, javascript-format
+msgid ""
+"Thank you for your inquiry (#%s)! We'll contact you as soon as possible."
+msgstr ""
+"Mulțumim pentru solicitarea ta (#%s)! Te vom contacta cât mai curând posibil."
+
+#: weblate/static/zammad.js:17
+msgid "Subject"
+msgstr "Subiect"
+
+#: weblate/static/zammad.js:25
+msgid "Your name"
+msgstr "Numele tău"
+
+#: weblate/static/zammad.js:33
+msgid "Your e-mail"
+msgstr "Emailul tău"
+
+#: weblate/static/zammad.js:41
+msgid "Message"
+msgstr "Mesaj"
+
+#: weblate/static/zammad.js:45
+msgid ""
+"Please contact us in English, otherwise we might be unable to process your "
+"request."
+msgstr ""
+"Te rugăm să ne contactezi în limba engleză, altfel s-ar putea să nu-ți putem "
+"procesa solicitarea."
+
+#: weblate/static/zammad.js:51
+msgid "Attachments"
+msgstr "Atașamente"
+
+#~ msgid "Sunday"
+#~ msgstr "Duminică"
+
+#~ msgid "Monday"
+#~ msgstr "Luni"
+
+#~ msgid "Tuesday"
+#~ msgstr "Marți"
+
+#~ msgid "Wednesday"
+#~ msgstr "Miercuri"
+
+#~ msgid "Thursday"
+#~ msgstr "Joi"
+
+#~ msgid "Friday"
+#~ msgstr "Vineri"
+
+#~ msgid "Saturday"
+#~ msgstr "Sâmbătă"
+
+#~ msgctxt "Short (for example three letter) name of day in week"
+#~ msgid "Sun"
+#~ msgstr "Duminică"
+
+#~ msgctxt "Short (for example three letter) name of day in week"
+#~ msgid "Mon"
+#~ msgstr "Luni"
+
+#~ msgctxt "Short (for example three letter) name of day in week"
+#~ msgid "Tue"
+#~ msgstr "Marţi"
+
+#~ msgctxt "Short (for example three letter) name of day in week"
+#~ msgid "Wed"
+#~ msgstr "Miercuri"
+
+#~ msgctxt "Short (for example three letter) name of day in week"
+#~ msgid "Thu"
+#~ msgstr "Joi"
+
+#~ msgctxt "Short (for example three letter) name of day in week"
+#~ msgid "Fri"
+#~ msgstr "Vineri"
+
+#~ msgctxt "Short (for example three letter) name of day in week"
+#~ msgid "Sat"
+#~ msgstr "Sâmbătă"
+
+#~ msgctxt "Minimal (for example two letter) name of day in week"
+#~ msgid "Su"
+#~ msgstr "Duminică"
+
+#~ msgctxt "Minimal (for example two letter) name of day in week"
+#~ msgid "Mo"
+#~ msgstr "Luni"
+
+#~ msgctxt "Minimal (for example two letter) name of day in week"
+#~ msgid "Tu"
+#~ msgstr "Marţi"
+
+#~ msgctxt "Minimal (for example two letter) name of day in week"
+#~ msgid "We"
+#~ msgstr "Miercuri"
+
+#~ msgctxt "Minimal (for example two letter) name of day in week"
+#~ msgid "Th"
+#~ msgstr "Joi"
+
+#~ msgctxt "Minimal (for example two letter) name of day in week"
+#~ msgid "Fr"
+#~ msgstr "Vineri"
+
+#~ msgctxt "Minimal (for example two letter) name of day in week"
+#~ msgid "Sa"
+#~ msgstr "Sâmbătă"
+
+#~ msgid "January"
+#~ msgstr "Ianuarie"
+
+#~ msgid "February"
+#~ msgstr "Februarie"
+
+#~ msgid "March"
+#~ msgstr "Martie"
+
+#~ msgid "April"
+#~ msgstr "Aprilie"
+
+#~ msgid "May"
+#~ msgstr "Mai"
+
+#~ msgid "June"
+#~ msgstr "Iunie"
+
+#~ msgid "July"
+#~ msgstr "Iulie"
+
+#~ msgid "August"
+#~ msgstr "August"
+
+#~ msgid "September"
+#~ msgstr "Septembrie"
+
+#~ msgid "October"
+#~ msgstr "Octombrie"
+
+#~ msgid "November"
+#~ msgstr "Noiembrie"
+
+#~ msgid "December"
+#~ msgstr "Decembrie"
+
+#~ msgctxt "Short name of month"
+#~ msgid "Jan"
+#~ msgstr "Ian"
+
+#~ msgctxt "Short name of month"
+#~ msgid "Feb"
+#~ msgstr "Feb"
+
+#~ msgctxt "Short name of month"
+#~ msgid "Mar"
+#~ msgstr "mar"
+
+#~ msgctxt "Short name of month"
+#~ msgid "Apr"
+#~ msgstr "Apr"
+
+#~ msgctxt "Short name of month"
+#~ msgid "May"
+#~ msgstr "Mai"
+
+#~ msgctxt "Short name of month"
+#~ msgid "Jun"
+#~ msgstr "iun"
+
+#~ msgctxt "Short name of month"
+#~ msgid "Jul"
+#~ msgstr "iul"
+
+#~ msgctxt "Short name of month"
+#~ msgid "Aug"
+#~ msgstr "aug"
+
+#~ msgctxt "Short name of month"
+#~ msgid "Sep"
+#~ msgstr "Sep"
+
+#~ msgctxt "Short name of month"
+#~ msgid "Oct"
+#~ msgstr "oct"
+
+#~ msgctxt "Short name of month"
+#~ msgid "Nov"
+#~ msgstr "Noi"
+
+#~ msgctxt "Short name of month"
+#~ msgid "Dec"
+#~ msgstr "Dec"
+
+#~ msgid "Today"
+#~ msgstr "Azi"
+
+#~ msgid "Clear"
+#~ msgstr "Şterge"
+
+#~ msgid "Copy"
+#~ msgstr "Copiază"
+
+#~ msgid "Copy and save"
+#~ msgstr "Copiați și salvați"
+
+#~ msgid "Add to screenshot"
+#~ msgstr "Adăugați la captura de ecran"
+
+#, fuzzy
+#~| msgctxt "Short name of month"
+#~| msgid "Nov"
+#~ msgid "Now"
+#~ msgstr "Noi"

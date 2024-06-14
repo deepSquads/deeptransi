@@ -1,0 +1,43 @@
+#!/bin/sh
+
+# Copyright © Michal Čihař <michal@weblate.org>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+set -e -x
+
+# Install CI requirements
+# shellcheck disable=SC2046
+python -m pip install $(sed -n 's/.*"\(uv==\([^"]*\)\)".*/\1/p' pyproject.toml)
+
+# Workaround for
+# SystemError: ffi_prep_closure(): bad user_data (it seems that the version of the libffi library seen at runtime is different from the 'ffi.h' file seen at compile-time)
+uv pip install --system --no-binary :all: cffi
+
+if [ "${1:-latest}" = migrations ] ; then
+    uv pip install --system -e ".[all,mysql,ci]"
+else
+    if [ "${1:-latest}" = minimal ] ; then
+        # Adjust deps to force minimal version
+        sed -i '/^ *"/ s/>=/==/' pyproject.toml
+    fi
+
+    if [ "${1:-latest}" = mypy ] ; then
+      uv pip install --system -e ".[all,mysql,ci,mypy,test]"
+    else
+      uv pip install --system -e ".[all,mysql,ci,test]"
+    fi
+    if [ "${1:-latest}" = edge ] ; then
+        uv pip install --system --no-binary=lxml --upgrade -e ".[all,mysql,test,ci]"
+        # Install from git / pre-release
+        uv pip install --system --no-deps --upgrade --force-reinstall https://github.com/translate/translate/archive/master.zip
+        uv pip install --system --no-deps --upgrade --force-reinstall https://github.com/WeblateOrg/language-data/archive/main.zip
+        uv pip install --system --no-deps --upgrade --force-reinstall https://github.com/WeblateOrg/translation-finder/archive/main.zip
+        uv pip install --system --upgrade --pre Django
+    fi
+fi
+
+# Verify that deps are consistent
+if [ "${1:-latest}" != edge ] ; then
+    uv pip check
+fi
